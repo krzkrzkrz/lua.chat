@@ -73,6 +73,17 @@ p {
   text-align: center;
 }
 
+#invitation-sent {
+  margin: 0 0 100px 0;
+  padding: 0 0 100px 0;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+#invitation-sent h1 {
+  margin: 0 0 24px 0;
+}
+
 #footer {
   padding: 0 0 50px 0;
   text-align: center;
