@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bree Serif', sans-serif;
 }
 
 p, div {
@@ -24,8 +24,42 @@ p, div {
   margin: 0 0 24px 0;
 }
 
+#summary h1 span {
+  font-family: 'Bree Serif', sans-serif;
+  text-decoration: underline;
+}
+
 #invitation {
+  margin: 0 0 100px 0;
+  padding: 0 0 100px 0;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+#channels {
   margin: 0 0 24px 0;
+  text-align: center;
+}
+
+#channels h3 {
+  margin: 0 0 24px 0;
+}
+
+#channels .group {
+  margin: 0 0 24px 0;
+}
+
+#channels .group .channel {
+  width: 50%;
+  float: left;
+  padding: 8px;
+}
+
+#channels .group .channel h5 {
+  font-family: 'Bree Serif', sans-serif;
+}
+
+#channels .group .channel p {
   text-align: center;
 }
 
