@@ -10,6 +10,11 @@ p {
   color: #888;
 }
 
+.fa.red {
+  color: #f16b6f;
+  display: inline-block;
+}
+
 span.emphasize {
   color: #58c9b9;
   font-weight: bold;
