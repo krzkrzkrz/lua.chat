@@ -8,6 +8,7 @@ p, div {
 
 p {
   color: #888;
+  line-height: 2em;
 }
 
 .fa.red {
