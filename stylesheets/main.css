@@ -1,7 +1,33 @@
-body {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-  color: red;
+p, div {
+  font-family: 'Roboto', sans-serif;
 }
+
+#logos {
+  margin: 24px 0;
+  text-align: center;
+}
+
+#logos img {
+  display: inline-block;
+}
+
+#summary {
+  margin: 0 0 24px 0;
+  text-align: center;
+}
+
+#summary h1 {
+  margin: 0 0 24px 0;
+}
+
+#invitation {
+  margin: 0 0 24px 0;
+  text-align: center;
+}
+
+
+
