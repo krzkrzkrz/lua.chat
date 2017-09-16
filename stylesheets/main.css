@@ -6,6 +6,10 @@ p, div {
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  color: #888;
+}
+
 #logos {
   margin: 24px 0;
   text-align: center;
@@ -26,7 +30,7 @@ p, div {
 
 #summary h1 span {
   font-family: 'Bree Serif', sans-serif;
-  text-decoration: underline;
+  color: #f16b6f;
 }
 
 #invitation {
@@ -37,12 +41,18 @@ p, div {
 }
 
 #channels {
-  margin: 0 0 24px 0;
+  margin: 0 0 100px 0;
+  padding: 0 0 100px 0;
+  border-bottom: 1px solid #ccc;
   text-align: center;
 }
 
 #channels h3 {
   margin: 0 0 24px 0;
+}
+
+#channels #more-channels p {
+  text-align: center;
 }
 
 #channels .group {
@@ -63,5 +73,10 @@ p, div {
   text-align: center;
 }
 
+#footer {
+  padding: 0 0 50px 0;
+  text-align: center;
+  font-size: 11px;
+}
 
 
